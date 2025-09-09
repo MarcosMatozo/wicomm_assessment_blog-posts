@@ -6,6 +6,7 @@ import './css/style.css'
 type Post = {
   yoast_head_json: any
   id: number
+  link: string
   title: {
     rendered: string
   }
@@ -61,7 +62,7 @@ function BlogPosts() {
 
                   {/* See more */}
                   <p className={handles.blog_link}>
-                    <a href={post?.yoast_head_json?.og_url || ''} target='_blank' rel='noreferrer'>
+                    <a href={post?.link || ''} target='_blank' rel='noreferrer'>
                       Leia mais
                     </a>
                   </p>
