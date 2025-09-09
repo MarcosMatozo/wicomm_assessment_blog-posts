@@ -1,5 +1,5 @@
 {
-  "name": "CHANGE_ME",
+  "name": "blog_posts",
   "version": "0.0.0",
   "scripts": {
     "test": "vtex-test-tools test"
@@ -21,7 +21,8 @@
     "graphql": "^14.6.0",
     "typescript": "3.9.7",
     "vtex.css-handles": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.css-handles@1.0.1/public/@types/vtex.css-handles",
-    "vtex.render-runtime": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.136.1/public/@types/vtex.render-runtime"
+    "vtex.render-runtime": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.136.1/public/@types/vtex.render-runtime",
+    "wicommpartnerbr.wicomm-blog-posts": "https://marcoshenrique--wicommpartnerbr.myvtex.com/_v/private/typings/linked/v1/wicommpartnerbr.wicomm-blog-posts@0.0.2+build1757383128/public/@types/wicommpartnerbr.wicomm-blog-posts"
   },
   "resolutions": {
     "@types/jest": "26.0.15"
