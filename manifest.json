@@ -1,7 +1,7 @@
 {
   "vendor": "wicommpartnerbr",
   "name": "wicomm-blog-posts",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "title": "Blog Posts",
   "description": "Custom app to show blog posts",
   "builders": {
@@ -14,9 +14,7 @@
   "dependencies": {
     "vtex.css-handles": "1.x"
   },
-  "registries": [
-    "smartcheckout"
-  ],
+  "registries": ["smartcheckout"],
   "policies": [],
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
